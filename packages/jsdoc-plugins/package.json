@@ -1,0 +1,16 @@
+{
+  "name": "@xh/jsdoc-plugins",
+  "version": "0.0.1",
+  "description": "Plugins to pre-parse and transform Hoist source code for JSDoc compatability",
+  "repository": "github:exhi/hoist-dev-utils",
+  "homepage": "https://github.com/exhi/hoist-dev-utils",
+  "bugs": "https://github.com/exhi/hoist-dev-utils/issues",
+  "author": "Extremely Heavy Industries, Inc.",
+  "license": "UNLICENSED",
+  "files": [
+    "decorators.js"
+  ],
+  "peerDependencies": {
+    "jsdoc": ">=3.5.5"
+  }
+}
