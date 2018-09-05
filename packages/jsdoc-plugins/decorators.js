@@ -5,9 +5,9 @@ exports.handlers = {
 
     beforeParse: function(e) {
         const subs = [
-            [/@HoistModel\(\)\n/gm, ''],
-            [/@HoistService\(\)\n/gm, ''],
-            [/@HoistComponent\(\)\n/gm, ''],
+            [/@HoistModel\n/gm, ''],
+            [/@HoistService\n/gm, ''],
+            [/@HoistComponent\n/gm, ''],
             [/@HotkeysTarget\n/gm, ''],
             [/@LayoutSupport\n/gm, ''],
             [/@computed\n/gm, ''],
